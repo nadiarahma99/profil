@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Pribadi Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body title="Halaman Profil Pribadi Nadia Rahma">
+
+  <div class="container" id="profile-container">
+    <!-- Bagian Kiri -->
+    <div class="left-card" title="Foto dan Informasi Singkat">
+      <img src="fotoku.jpg" alt="Foto Profil Nadia Rahma" class="profile-pic" id="foto-nadia">
+      <h2>HELLO, I'M NADIA</h2>
+      <p>
+        I am an Information Systems student who continues to strive in design and programming. 
+        I enjoy learning new things about technology and creativity.
+      </p>
+
+      <div class="social-icons">
+        <a href="#" title="Facebook"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook Icon"></a>
+        <a href="#" title="Instagram"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram Icon"></a>
+        <a href="#" title="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="LinkedIn Icon"></a>
+      </div>
+    </div>
+
+    <!-- Bagian Kanan -->
+    <div class="right-content" id="right-section" title="Profil Lengkap Nadia Rahma">
+      <h1>Profil Pribadi Saya</h1>
+
+      <!-- Paragraf Identitas -->
+      <p><strong>Nama Lengkap:</strong> Nadia Rahma</p>
+      <p><strong>NIM:</strong> 246270014</p>
+      <p><strong>Hobi:</strong> Reading, Drawing, and cooking.</p>
+
+     
+      <h3>Biodata</h3>
+      <ul class="biodata-list" title="Biodata Pribadi">
+        <li><strong>Full Name:</strong> Nadia Rahma</li>
+        <li><strong>Place & Date of Birth:</strong> Palu, 24 July</li>
+        <li><strong>Address:</strong> Jalan Habib Muhammad Aljufri</li>
+        <li><strong>Email:</strong> rhmanadya@gmail.com</li>
+        <li><strong>Study Program:</strong> Information Systems</li>
+      </ul>
+
+     
+      <h3>Daftar Hobi dan Aktivitas Favorit</h3>
+      <ul>
+        <li>Membaca Buku</li>
+        <li>Menggambar</li>
+        <li>Memasak</li>
+      </ul>
+
+
+      <!-- Formulir Input -->
+      <h3>Formulir Data Diri</h3>
+      <form id="form-profil" title="Formulir Profil Mahasiswa">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Masukkan email kamu"><br><br>
+
+        <label for="NIM">NIM:</label><br>
+        <input type="NIM" id="NIM" name="NIM" placeholder="Masukkan NIM kamu"><br><br>
+
+        Jenis Kelamin:<br>
+        <input type="radio" id="pria" name="gender" value="Pria">
+        <label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="gender" value="Wanita">
+        <label for="wanita">Wanita</label><br><br>
+
+        Hobi:<br>
+        <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+        <label for="membaca">Membaca</label><br>
+        <input type="checkbox" id="desain" name="hobi" value="Desain Web">
+        <label for="desain">Desain Web</label><br>
+        <input type="checkbox" id="musik" name="hobi" value="Musik">
+        <label for="musik">Mendengarkan Musik</label><br><br>
+        
+        <input type="submit" value="Kirim" id="kirim">
+      </form>
+
+      <button id="contact-btn" title="Hubungi Nadia">Contact Me</button>
+    </div>
+  </div>
+
+</body>
+</html>
